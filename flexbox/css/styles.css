@@ -15,14 +15,74 @@ nav{
     height: 200px;
     margin: 10px;
     padding-top: 5px;
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    -ms-align-content: center;
+    -o-align-content: center;
+    display: flexbox;
     flex-wrap: wrap;
-    -webkit-display: flex;
-    -moz-display: flex;
-    -ms-display: flex;
-    -o-display: flex;
+    -webkit-display: flexbox;
+    -moz-display: flexbox;
+    -ms-display: flexbox;
+    -o-display: flexbox;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    -ms-align-content: center;
+    -o-align-content: center;
+    flex: 1 0 251px;
+    -webkit-flex: 1 0 251px;
+    -moz-flex: 1 0 251px;
+    -ms-flex: 1 0 251px;
+    -o-flex: 1 0 251px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #66A5AD;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    -ms-align-content: center;
+    -o-align-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    border: 3px solid #C4DFE6;
+    flex: 1 0 251px;
+    -webkit-flex: 1 0 251px;
+    -moz-flex: 1 0 251px;
+    -ms-flex: 1 0 251px;
+    -o-flex: 1 0 251px;
 }
