@@ -1,10 +1,12 @@
-*{
+* {
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    -ms-box-sizing: border-box;     
+    -o-box-sizing: border-box;     
+    box-sizing: border-box;        
 }
+
 
 body{
     margin: 0;
@@ -15,74 +17,36 @@ nav{
     height: 200px;
     margin: 10px;
     padding-top: 5px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    -webkit-align-content: center;
-    -moz-align-content: center;
-    -ms-align-content: center;
-    -o-align-content: center;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
-    -webkit-display: flexbox;
-    -moz-display: flexbox;
-    -ms-display: flexbox;
-    -o-display: flexbox;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
 }
 
-nav ul{
-    list-style-type: none;
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    -webkit-align-content: center;
-    -moz-align-content: center;
-    -ms-align-content: center;
-    -o-align-content: center;
-    flex: 1 0 251px;
-    -webkit-flex: 1 0 251px;
-    -moz-flex: 1 0 251px;
-    -ms-flex: 1 0 251px;
-    -o-flex: 1 0 251px;
-}
-
-nav a {
+nav a{
     display: inline-block;
     background-color: #66A5AD;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    -webkit-align-content: center;
-    -moz-align-content: center;
-    -ms-align-content: center;
-    -o-align-content: center;
     text-align: center;
     padding: 20px;
+    margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    margin-bottom: 5px;
     color: aliceblue;
     border: 3px solid #C4DFE6;
-    flex: 1 0 251px;
-    -webkit-flex: 1 0 251px;
-    -moz-flex: 1 0 251px;
-    -ms-flex: 1 0 251px;
-    -o-flex: 1 0 251px;
+    flex: 1, 0, 215px;
+    -webkit-flex: 1, 0, 215px;
+    -moz-flex: 1, 0, 215px;
+    -ms-flex: 1, 0, 215px;
+    -o-flex: 1, 0, 215px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
 }
